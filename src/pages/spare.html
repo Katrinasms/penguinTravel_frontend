@@ -1,0 +1,64 @@
+<div className="card-container mx-20 ">
+    <div class="card">
+        
+        <div className="absolute top-0 title-cover h-32 bg-blue-300 w-full">
+        </div>
+        <div className="absolute h-full w-full">
+        <div className="flex flex-col w-full h-full border-x-2 verticalAlighn childHorizontalAlign ">
+              <div className="w-full flex childHorizontalAlign">
+                <h1 className="text-2xl  px-5 text-slate-600  md:w-64 text-left">I really want to download the true size photos for free 🥺🥺🥺, Can I?</h1>
+                </div>
+              
+                <h1 className="text-xl text-slate-600 p-5"><b>One</b> Click for <b>1</b> credit <BsCoin className="inline"/> </h1> 
+        </div>
+        {/* <div className="flex border-x-2 childHorizontalAlign"> */}
+            {/* <h1 className="  text-2xl p-5 text-slate-600 text-left  flex-wrap md:w-64">I really want to download the true size photos for free 🥺🥺🥺, Can I?</h1> */}
+        {/* </div> */}
+        {/* <div className="pb-5 px-5 w-full border-x-2"> */}
+            {/* <h1 className="text-xl text-slate-600"><b>One</b> Click for <b>1</b> credit <BsCoin className="inline"/> </h1> */}
+        {/* </div> */}
+        </div>
+          <div className="absolute bottom-0 title-cover h-32 w-full bg-blue-100">
+            <button className="text-2xl border-solid border-2 text-slate-500 bg-slate-400 text-white m-5 px-4 py-1 rounded-lg hover:bg-blue-500" onClick={()=>paymentButtonClick(0,1,"free",`/payment/free`)}>Take it!</button>
+        </div>
+        
+    </div>
+    <div class="card">
+            <div className="absolute top-0 title-cover h-32 bg-blue-300  w-full ">
+            </div>
+            <div className="flex flex-col w-full h-full border-x-2 verticalAlighn childHorizontalAlign ">
+              <div className="w-full flex childHorizontalAlign">
+                <h1 className="text-2xl  px-5 text-slate-600  md:w-64 text-left">Let me buy you a coffee, is it a good idea?</h1>
+                </div>
+                <img src={img} className="drop-shadow-none w-1/4 mx-auto"></img>
+                <h1 className="text-xl text-slate-600 p-5"><b>One</b>  Coffee (<b>$5</b> USD) for <b>10</b> credits <BsCoin className="inline"/> </h1>
+              </div>
+             <div className=" absolute bottom-0 title-cover h-32 w-full bg-blue-100 ">
+                <button className="text-2xl border-solid border-2 text-slate-500 bg-slate-400 text-white m-5 px-4 py-1 rounded-lg hover:bg-blue-500" onClick={()=>paymentButtonClick(5,10,"coffee",`/payment/coffee`)}>Thanks 🥺</button>
+            </div>
+    </div>
+    <div class="card">
+            <div className="absolute top-0 title-cover h-32 bg-blue-300  w-full ">
+            </div>
+            <div className="flex flex-col w-full h-full border-x-2 verticalAlighn childHorizontalAlign ">
+              <div className="w-full flex childHorizontalAlign">
+                <h1 className="text-2xl  px-5 text-slate-600  md:w-64 text-left">I want freedom, I decide on my own 😎😎</h1>
+                </div>
+                <div className="flex childHorizontalAlign verticalAlighn w-full pt-2 px-5 w-2/3">
+                  <input
+                          type="number"
+                          placeholder="$"
+                          className="border-2 px-2 py-1 w-3/5"
+                          value={toPaid}
+                          onChange={(e) => setToPaid(e.target.value)}
+                        />
+                  <p className="px-2 py-1" > USD</p>
+               </div>
+                {/* <img src={img} className="drop-shadow-none w-1/4 mx-auto"></img> */}
+                <h1 className="text-xl text-slate-600 p-5"><b>One</b>  USD for <b>1</b> credits <BsCoin className="inline"/> </h1>
+              </div>
+             <div className=" absolute bottom-0 title-cover h-32 w-full bg-blue-100 ">
+                <button className="text-2xl border-solid border-2 text-slate-500 bg-slate-400 text-white m-5 px-4 py-1 rounded-lg hover:bg-blue-500" onClick={()=>paymentButtonClick(5,10,"coffee",`/payment/coffee`)}>Thanks 🥺</button>
+            </div>
+    </div>
+</div>
