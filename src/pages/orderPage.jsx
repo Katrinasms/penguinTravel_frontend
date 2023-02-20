@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 // import Header from "./../components/Header";
-import { PayPalButton } from "react-paypal-button-v2";
+// import { PayPalButton } from "react-paypal-button-v2";
 import {
     PayPalScriptProvider,
     PayPalButtons,
@@ -238,11 +238,11 @@ const OrderPage = () => {
                     {!sdkReady ? (
                       <Loading />
                     ) : (
-                      <PayPalButton
-                        amount={order.totalPrice}
-                        onSuccess={successPaymentHandler}
-                      />
-                    // <></>
+                      // <PayPalButton
+                      //   amount={order.totalPrice}
+                      //   onSuccess={successPaymentHandler}
+                      // />
+                    <></>
                     )} 
                   </div>
                 )}
