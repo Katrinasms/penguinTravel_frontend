@@ -33,7 +33,8 @@ const PaymentPage = () => {
 
     // const url = "http://localhost:5001"
     const url = "https://penguintravelbackend-production.up.railway.app"
-    const client_url = "http://localhost:3000"
+    // const client_url = "http://localhost:3000"
+    const client_url = "https://penguin-travel-frontend-ejb5qe7li-katrinasms.vercel.app/"
 
     const submitCoffeeHandler = (e) => {
       e.preventDefault();
