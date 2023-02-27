@@ -23,21 +23,31 @@ const img_source
 
 
 const video_data = [
-    {title: "[南極企鵝之旅]12分鐘睇完22日Falkland Island, South Georgia & 南極三島之旅| 22 days to Antarctica", 
-    image: "./images/photos/video/Cover1.jpg", 
-    link:"https://www.youtube.com/watch?v=RZor4t83b6Q",
-    content: "簡單總結去Falkland Island, South Georgia & 南極22日行程!"
+    {
+        title: "[南極企鵝之旅]12分鐘睇完22日Falkland Island, South Georgia & 南極三島之旅| 22 days to Antarctica", 
+        image: "./images/photos/video/Cover1.jpg", 
+        link:"https://www.youtube.com/watch?v=RZor4t83b6Q",
+        content: "簡單總結去Falkland Island, South Georgia & 南極22日行程!",
+        date:"5 December, 2022"
     },
     {
         title: "22 min Relaxing Music with Penguins (South Georgia & Antarctica)  Part 1", 
         image: "./images/photos/video/Cover2.jpeg", 
         link:"https://www.youtube.com/watch?v=JaaAjn-0YT0&t=1109s",
-        content: "A video to all who love penguins. Hope you can enjoy it."},
+        content: "A video to all who love penguins. Hope you can enjoy it.",
+        date:"18 December, 2022"},
     {
         title: "[阿根廷睇世界杯]7分鐘睇完世界盃月間既阿根廷 | 7 Min about World Cup Period in Argentina", 
         image: "./images/photos/video/Cover3.png", link:"https://www.youtube.com/watch?v=FB7_XU75il4",
-        content: "希望你地可以一齊感受到阿根延既喜悅!"},
+        content: "希望你地可以一齊感受到阿根延既喜悅!",
+        date:"1 January, 2023"},
+    {
+        title: "[秘魯馬丘比丘] 門票賣哂？徒步行2個鐘火車軌？ 即興去馬丘比丘之旅 |  Ad-hoc Trip to MachuPicchu", 
+        image: "./images/photos/video/Cover4.webp", link:"https://youtu.be/IeFWWDw54H4",
+        content: "主要記錄呢次難忘既last minute馬丘比丘之旅: 包括好難買既門票🎫，好多程既交通🚂同埋洗費💸",
+        date:"21 January, 2023"}
 ]
+
 
 
 
@@ -84,7 +94,7 @@ const BlogSection = () => {
                                
                                 <SwiperSlide className="pb-10 mr-10 swiper-slide" key={index}>
                                      {/* <a href={image.link} className="inline-block play-vedio text-white opacity-75"> */}
-                                    <BlogCard image={image.image} title={image.title} link={image.link} content={image.content} className="swiper-content h-100"/>
+                                    <BlogCard image={image.image} title={image.title} link={image.link} content={image.content} date={image.date} className="swiper-content h-100"/>
                                     {/* </a> */}
                                 </SwiperSlide>
                                 

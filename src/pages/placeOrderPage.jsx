@@ -100,7 +100,7 @@ const PlaceOrderPage = () => {
 
     </div>
       <div className="container pt-10 ">
-        <div className="row  order-detail mx-20">
+        <div className="row  order-detail mx-sm-20">
           <div className="col-lg-4 col-sm-4 mb-lg-4 mb-5 mb-sm-0 ">
             <div className="row ">
               <div className="col-md-4">
@@ -119,7 +119,7 @@ const PlaceOrderPage = () => {
           </div>
         </div>
 
-        <div className="row order-products justify-content-between my-10 mx-20">
+        <div className="row order-products justify-content-between my-10 mx-md-20">
           <div className="col-lg-8">
             {cart.cartItems.length === 0 ? (
               <Message variant="alert-info mt-5">Your cart is empty</Message>

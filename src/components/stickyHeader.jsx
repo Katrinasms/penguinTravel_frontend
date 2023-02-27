@@ -57,9 +57,9 @@ const StickyHeader = () => {
                 <ul className="hidden space-x-2 md:inline-flex">
                 <li className="nav__list-item pt-1.5"><a href="/" className="nav__link">Home</a></li>
                 <li className="nav__list-item pt-1.5">
-                  <a href="/shops" className="nav__link">Shops</a>
+                  <a href="/shops" className="nav__link">Photos</a>
                 </li>
-                <li className="pt-1.5"><Link className="nav__link" to="/video">Video</Link></li>
+                <li className="pt-1.5"><Link className="nav__link" to="/video">Videos</Link></li>
                 <li className="nav__list-item  pt-1.5"><a href="/contact" className="nav__link">Contact</a></li> 
                 {/* nav__list-item nav__list*/}
                 {/* <a href="/video" className="nav__link">Videos</a> */}

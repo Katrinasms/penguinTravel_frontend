@@ -116,12 +116,13 @@ const CartPage = () => {
               <div className="total-price">${total}</div>
             </div>
             <hr />
-            <div className="cart-buttons d-flex align-items-center row childHorizontalAlign">
+            <div className="flex cart-buttons d-flex align-items-center row childHorizontalAlign">
               <Link to="/shops" className="col-md-6 ">
                 <button>Continue To Shopping</button>
               </Link>
               {total > 0 && (
-                <div className="col-md-6 d-flex justify-content-md-end mt-3 mt-md-0">
+                // <div className="col-md-6 d-flex justify-content-md-end mt-3 mt-md-0">
+                <div className="col-md-6 mt-3  mt-md-0">
                   <button onClick={checkOutHandler}>Checkout</button>
                 </div>
               )}

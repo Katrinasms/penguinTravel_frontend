@@ -1,4 +1,4 @@
-const BlogCard =({image, title, link, content}) => {
+const BlogCard =({image, title, link, content,date}) => {
 
 return (
 
@@ -12,7 +12,7 @@ return (
 <h3><a href={link} className="block text-base md:text-md hover:text-orange transition-all font-medium pb-[10px] text-ellipsis overflow-hidden">{title}</a></h3>
 <div className="blog-meta">
     <ul className="flex flex-wrap items-center pb-[10px]">
-        <li className="text-sm"><a href={link} className="text-sm text-dark hover:text-orange transition-all">21 April, 2021</a> <span className="inline-block mx-2">\</span> </li>
+        <li className="text-sm"><a href={link} className="text-sm text-dark hover:text-orange transition-all">{date}</a> <span className="inline-block mx-2">\</span> </li>
         {/* <li className="text-sm"><a href="#" className="text-sm text-dark hover:text-orange transition-all">0 comments</a></li> */}
     </ul>
 </div>

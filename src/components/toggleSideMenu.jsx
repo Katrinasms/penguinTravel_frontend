@@ -43,7 +43,7 @@ const ToggleSideMenu = () => {
            <nav> 
             <ul>
               <li className='mt-10'><a href="/" className="nav__link"> Home </a></li>
-              <li className='m-1 md:m-5'><a href="/shops" className="nav__link">  Shops  </a></li>
+              <li className='m-1 md:m-5'><a href="/shops" className="nav__link">  Photos  </a></li>
               <li className='m-1 md:m-5'><a href="/video" className="nav__link">  Videos  </a></li>
               <li className='mb-10 md:m-5'><a href="/contact" className="nav__link">  Contact  </a></li>
               <hr></hr>

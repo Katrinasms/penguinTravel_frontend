@@ -132,7 +132,7 @@ const ProductDetail = ()=>{
                 <div className=" text-center">
                         <h3 className="font-medium text-xl capitalize">{product?.title}</h3>
                         <h5 className="font-bold text-md leading-none text-orange my-3"><del className="font-normal text-sm mr-1 inline-block"><BsCoin className="inline-block"/> {product?.price}</del><BsCoin className=" pl-1 inline"/> {product?.price/2}</h5>
-                        <p className="mb-8">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+                        <p className="mb-8">Feel free to add the photo to cart and download it! It is completedly free :)</p>
 
                         <div>
 
