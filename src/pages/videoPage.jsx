@@ -23,7 +23,7 @@ const video_data = [
         date:"1 January, 2023"},
     {
         title: "[秘魯馬丘比丘] 門票賣哂？徒步行2個鐘火車軌？ 即興去馬丘比丘之旅 |  Ad-hoc Trip to MachuPicchu", 
-        image: "./images/photos/video/Cover4.webp", link:"https://youtu.be/IeFWWDw54H4",
+        image: "./images/photos/video/cover4.webp", link:"https://youtu.be/IeFWWDw54H4",
         content: "主要記錄呢次難忘既last minute馬丘比丘之旅: 包括好難買既門票🎫，好多程既交通🚂同埋洗費💸",
         date:"21 January, 2023"
     }

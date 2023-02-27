@@ -13,7 +13,7 @@ const Footer = ()=>{
                             </a>
     
                             <p className="mb-10">
-                                Feel free to follow us to get the updated information. hi
+                                Feel free to follow us to get the updated information.
                             </p>
     
                             <form id="mc-form" className="relative text-center md:max-w-xl mx-auto mb-10">
