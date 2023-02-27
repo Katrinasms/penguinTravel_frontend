@@ -83,7 +83,9 @@ const BuyCreditPage = () => {
             </div>
            
              <div className="title-cover p-5 w-full bg-blue-100 rounded-b-lg border-x-2">
-                <button className="text-2xl border-solid border-2 text-slate-500 bg-slate-400 text-white px-4 py-1 rounded-lg hover:bg-blue-500 pretty__text" onClick={()=>paymentButtonClick(5,10,"coffee",`/payment/coffee`)}>Thanks 🥺</button>
+               
+                <button className="text-2xl border-solid border-2 text-slate-500 bg-slate-400 text-white px-4 py-1 rounded-lg hover:bg-blue-500 pretty__text" disabled onClick={()=>paymentButtonClick(5,10,"coffee",`/payment/coffee`)}>Thanks 🥺</button>
+                <p className="text-sm pretty__text" >To be updated</p>
             </div>
           </div>
 
@@ -110,7 +112,8 @@ const BuyCreditPage = () => {
             </div> */}
             </div>
              <div className="title-cover p-5 w-full bg-blue-100 rounded-b-lg border-x-2">
-                <button className="text-2xl border-solid pretty__text border-2 text-slate-500 bg-slate-400 text-white px-4 py-1 rounded-lg hover:bg-blue-500" onClick={()=>paymentButtonClick(toPaid,toPaid*2,"freed",`/payment/freed`)}>Thanks 🥺</button>
+                <button className="text-2xl border-solid pretty__text border-2 text-slate-500 bg-slate-400 text-white px-4 py-1 rounded-lg hover:bg-blue-500" disabled onClick={()=>paymentButtonClick(toPaid,toPaid*2,"freed",`/payment/freed`)}>Thanks 🥺</button>
+                <p className="text-sm pretty__text ">To be updated</p>
             </div>
           </div>
         {/* </div> */}
