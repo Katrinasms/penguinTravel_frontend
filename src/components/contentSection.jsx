@@ -1,5 +1,5 @@
 import React from "react";
-import Pimg from "../assets/product1.JPG" 
+import Pimg from "../assets/product1.webp" 
 import {FadeIn,FadeUp,ScaleIn} from "../service/scrollAnimate"
 
 

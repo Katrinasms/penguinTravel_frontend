@@ -304,7 +304,7 @@ section{
 
 .hero-image{
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url("assets/cover2.JPG");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url("assets/cover2.webp");
 
   /* Set a specific height */
   height: 100vh;

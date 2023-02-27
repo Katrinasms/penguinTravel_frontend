@@ -13,8 +13,7 @@ const Footer = ()=>{
                             </a>
     
                             <p className="mb-10">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.aliqua. Ut enim ad
-                                minim. Lorem ipsum dolor sit amet.
+                                Feel free to follow us to get the updated information.
                             </p>
     
                             <form id="mc-form" className="relative text-center md:max-w-xl mx-auto mb-10">
@@ -55,9 +54,9 @@ const Footer = ()=>{
                         </div>
     
                         <div className="flex flex-wrap items-center justify-center md:justify-end">
-                            <a href="#">
+                            {/* <a href="#">
                                 <img className="w-full h-full" src="assets/images/logo/payment.webp" alt="payment logo" loading="lazy" width="286" height="23" />
-                            </a>
+                            </a> */}
                         </div>
                     </div>
     
