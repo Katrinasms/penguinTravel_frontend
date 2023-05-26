@@ -1,5 +1,5 @@
 # Penguin Travel
-
+![PenguinTravelWebPage](screenshot/coverImg.png)
 ## Introduction
 
 Penguin Travel is a photo e-commerce website that specializes in my travel photography, current showing photos taken in Antarctica. This platform offers a vast collection of high-quality travel photos that users can browse through and Download. 
